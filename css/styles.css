@@ -1,0 +1,87 @@
+
+.global{width: 91%;margin: 0 auto;}
+
+/* HEADER */
+header {padding: 20px 0px;}
+header .demande .tel a{text-decoration: none;color: #3d3c68;font-weight: bold;padding-left: 30px;}
+.global header .demande .tel a.hvr-radial-out:hover{color:#eb4;}
+header .choix-demande{padding-top: 25px;float: right;}
+header .demande .choix-demande button{background: #3d3c68;border:none;padding: 0px 15px;}
+header .demande .choix-demande h1{font-size: 10px;color: #fff;font-weight: bold;}
+header .demande .tel{float: right;}
+
+
+/* CONTAINER */
+.global .container .bloc1{background-image: url(../images/img1.png);height: 225px;width: 1164px;}
+.global .container .bloc1 a h1{font-size: 29px;font-family: monospace;color: #fff}
+.global .container .img-sejour {padding:8px 0px; width: 1164px;}
+.global .container .img-sejour div {padding:0px;}
+.global .container .img-sejour .prof h1{font-size: 30px;font-family: monospace;position: absolute;bottom: 0px;left: 15px;color: #fff}
+.global .container .img-sejour div a small{font-size: 15px;font-family: -webkit-body;position: absolute;bottom: 2px;left: 15px;color: #fff;}
+.global .container .img-sejour .etudiant a h1{font-size: 30px;font-family: monospace;position: absolute;bottom: 0px;left: 15px;color: #fff;}
+.global .container .img-sejour .etudiant a h1:hover, .global .container .img-sejour .prof h1:hover, .container .img-sejour .etudiant ul li a:hover{color: #eb4}
+
+.container .img-sejour .etudiant ul {
+	margin: 0;
+    float: right;
+    position: absolute;
+    bottom: 5px;
+    right: 15px;
+    text-align: right;
+}
+.global .container .img-sejour .etudiant ul li{list-style: none;line-height: 20px;}
+.global .container .img-sejour .etudiant ul li a {color: #fff;text-decoration: none;}
+.global .container .img-sejour .etudiant ul li a.hvr-radial-out:hover{color: #eb4;}
+.global .container .img-sejour .etudiant ul li a:after{content:'>';padding-left: 2px;font-size: 15px;}
+.global .container .img-sejour img{padding:0 5px;}
+
+
+/* FOOTER */
+
+.global .global ul{padding: 0 110px;margin: 0;}
+.global .global ul li{text-align: center;list-style: none;}
+.global .global ul li a{text-decoration: none;font-size: 11px;font-family: inherit;color: #343464;font-weight: bold;}
+.global .global ul li a.hvr-radial-out:hover {color: #eb4;}
+.global .global .webleader{text-align: center;}
+.global .global .webleader a p{font-size: 11px;font-family: inherit;font-weight: bold;color: #343464;}
+.global .global .webleader a p.hvr-radial-out:hover{color: #eb4;}
+.global .global .webleader a {text-decoration: none;}
+
+
+
+
+/* BREAK POINT */
+
+@media only screen and (max-width: 1312px) {
+
+ 	header .demande .choix-demande button {
+	    background: #3d3c68;
+	    border: none;
+	    width: 49%;
+	    height: 40px;
+	}
+	header .choix-demande {
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 736px){
+ 
+	header .demande .choix-demande {
+		padding:0px !important;
+   	 	margin-left: 20px;
+
+}
+
+@media only screen and (max-width: 990px) {
+
+	header .demande .choix-demande {
+
+	float: right;
+
+}
+
+
+
+
+
+
